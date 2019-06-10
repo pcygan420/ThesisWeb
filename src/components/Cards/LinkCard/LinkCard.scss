@@ -1,0 +1,27 @@
+.link-card {
+    width: 90%;
+    margin: 0 5%;
+
+    text-align: center;
+
+    iframe {
+        width: 100%; height: 100%;
+
+
+        border: none;
+    }
+
+    p {      
+        font-family: 'Open Sans', sans-serif;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .link-card {
+        
+        iframe {
+            width: 100%; height: 210px;
+        }
+    }
+}

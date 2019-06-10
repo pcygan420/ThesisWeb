@@ -1,0 +1,201 @@
+.base-wrapper {
+  max-width: 1020px;
+  height: auto;
+  margin: auto;
+  font-family: 'Patua One', cursive;
+  background-color: white; }
+  .base-wrapper h1 {
+    width: 100%;
+    height: 140px;
+    line-height: 140px;
+    font-size: 50px;
+    text-align: center; }
+  .base-wrapper .visible.menu.transition {
+    max-height: 110px !important;
+    overflow-y: auto; }
+
+.control-wrapper {
+  width: 100%;
+  position: relative;
+  padding: 10px; }
+
+.control-group {
+  width: 50%;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  background: white;
+  text-align: left;
+  padding: 6px;
+  min-height: 100px; }
+  .control-group h2 {
+    width: 100%;
+    text-align: left;
+    padding: 5px 0; }
+  .control-group form {
+    min-height: 250px;
+    overflow: auto; }
+  .control-group p {
+    text-align: center; }
+
+#votes-amount {
+  border: 0;
+  color: #383838;
+  font-weight: bold;
+  width: 100px !important;
+  padding: 5px 5px;
+  font-size: 13px; }
+
+#votes-amount-label:before {
+  content: "\f0c0";
+  font-family: "Font Awesome 5 Free";
+  font-size: 13px;
+  font-weight: 900;
+  margin-right: 5px;
+  color: #383838; }
+
+.years-dropdown {
+  min-height: 42px; }
+  .years-dropdown .ui.label {
+    color: white !important;
+    background-color: #edab2a !important;
+    font-size: 1.2em !important; }
+    .years-dropdown .ui.label:hover {
+      color: white !important;
+      background-color: #dd9e21 !important; }
+  .years-dropdown .default.text {
+    line-height: 1.6em !important; }
+
+.base-search-button {
+  float: right !important;
+  width: 200px; }
+
+.ui-slider {
+  height: 7px; }
+
+.ui-widget-header {
+  background-color: #2185d0 !important; }
+
+.ui-slider-handle {
+  width: 1.5rem;
+  text-decoration: none;
+  text-align: center; }
+
+.ui-slider .ui-slider-handle {
+  width: 1.2em;
+  height: 1.2rem;
+  border-radius: 1rem; }
+
+.ui-slider-horizontal .ui-slider-handle {
+  top: -.4em; }
+
+.ui-state-active {
+  cursor: pointer;
+  color: red !important; }
+
+.ui-widget-header {
+  background: #2f5691; }
+
+.rate-wrapper {
+  width: 100%;
+  min-height: 50px;
+  padding: 0 20%; }
+  .rate-wrapper p {
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    display: inline-block;
+    font-size: 16px;
+    text-align: left; }
+  .rate-wrapper .stars-wrapper {
+    text-align: center; }
+    .rate-wrapper .stars-wrapper i {
+      font-size: 19px; }
+    .rate-wrapper .stars-wrapper .active {
+      color: #2185d0 !important; }
+    .rate-wrapper .stars-wrapper .selected {
+      color: #1a69a4 !important; }
+
+.votes-wrapper {
+  width: 100% !important;
+  min-height: 50px;
+  padding: 0 20%;
+  font-size: 16px; }
+
+#elements-header {
+  width: 100%;
+  padding: 10px 20px; }
+
+.base-pagination-wrapper {
+  width: 100%;
+  height: 80px;
+  line-height: 80px;
+  display: flex;
+  justify-content: center;
+  padding: 20px 0; }
+  .base-pagination-wrapper .pagination {
+    position: relative;
+    margin-bottom: 0;
+    text-align: center; }
+
+.base-elements-grid {
+  margin: 0;
+  padding: 20px 16px; }
+
+@media (max-width: 600px) {
+  .base-search-button {
+    float: none !important;
+    margin-top: 25px !important;
+    width: 200px; }
+
+  .general-filter {
+    width: 100px !important;
+    display: block !important;
+    margin-left: 0px !important; }
+    .general-filter:nth-child(2) {
+      width: 200px !important;
+      margin-top: 15px !important; }
+
+  .control-wrapper {
+    padding: 0; }
+
+  .control-group {
+    width: 100%;
+    min-height: 60px;
+    padding: 5px 10px; }
+
+  .tag-input-wrapper {
+    height: 30px; }
+    .tag-input-wrapper .tags-wrapper .tag {
+      font-size: 15px;
+      padding: 2px; }
+      .tag-input-wrapper .tags-wrapper .tag:after {
+        font-size: 12px; }
+
+  .rate-wrapper {
+    padding: 30px 5px; }
+    .rate-wrapper .stars-wrapper i {
+      margin: 3px;
+      color: #bcbcbc;
+      font-size: 18px; }
+
+  #control-group-3 {
+    height: 270px !important; }
+
+  #votes-amount {
+    padding: 15px 5px;
+    font-size: 13px; }
+
+  #votes-amount-label {
+    font-size: 13px; }
+
+  .votes-wrapper {
+    padding: 0; }
+
+  .base-elements-grid {
+    margin: 0;
+    padding: 0; } }
+.base-elements-wrapper {
+  min-height: 1050px; }
+
+/*# sourceMappingURL=Base.css.map */

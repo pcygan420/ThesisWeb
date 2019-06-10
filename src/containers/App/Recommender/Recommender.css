@@ -1,0 +1,25 @@
+.recommender-wrapper {
+  max-width: 1020px;
+  height: auto;
+  min-height: 87vh;
+  margin: auto;
+  padding: 75px 10px;
+  background-color: white; }
+  .recommender-wrapper .recommended-songs-wrapper {
+    min-height: 300px; }
+  .recommender-wrapper .recommender-pagination-wrapper {
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0; }
+  .recommender-wrapper .recommender-message {
+    min-height: 100px;
+    line-height: 100px;
+    text-align: center; }
+    .recommender-wrapper .recommender-message span {
+      font-size: 20px;
+      color: #005ca3; }
+
+/*# sourceMappingURL=Recommender.css.map */

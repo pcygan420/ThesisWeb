@@ -1,0 +1,94 @@
+.profil-wrapper {
+  max-width: 1020px;
+  margin: 0 auto;
+  background-color: white; }
+  .profil-wrapper .image {
+    margin-top: 1em !important; }
+  .profil-wrapper .header {
+    padding: 0 !important; }
+  .profil-wrapper .table-column {
+    padding: 0 !important; }
+  .profil-wrapper tfoot {
+    height: 41px; }
+    .profil-wrapper tfoot tr {
+      height: 41px !important;
+      padding: 0 !important; }
+      .profil-wrapper tfoot tr th {
+        height: 41px !important;
+        padding: 0 !important; }
+  .profil-wrapper .ui.secondary.pointing.menu .active.item {
+    margin-top: 25px !important;
+    box-shadow: none !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
+    border-color: #2185d0 !important;
+    font-weight: 700 !important;
+    color: #2185d0 !important; }
+
+.info-segment {
+  padding: 16px 0;
+  box-shadow: none !important; }
+
+.profil-info-list {
+  padding: 10px !important; }
+  .profil-info-list .item {
+    color: #5b5b5b !important;
+    padding-bottom: 0 !important; }
+    .profil-info-list .item .header {
+      width: 20% !important;
+      display: inline-block !important;
+      margin-bottom: 4px !important; }
+
+.stats {
+  width: 100% !important;
+  height: 100% !important;
+  margin: 0 0 0 0 !important;
+  padding: 20px 0;
+  border: 1px solid rgba(34, 36, 38, 0.15); }
+  .stats .ui.statistic {
+    width: 20% !important;
+    margin: 0 !important; }
+    .stats .ui.statistic .value {
+      font-size: 3em !important; }
+    .stats .ui.statistic .label {
+      margin-top: 7px !important; }
+
+@media (max-width: 992px) {
+  .profil-wrapper .image {
+    width: 150px !important; }
+
+  .profil-info-list {
+    margin-top: 16px !important; } }
+@media (max-width: 660px) {
+  .stats {
+    padding: 10px 0; }
+    .stats .ui.statistic {
+      margin: 0 !important; }
+      .stats .ui.statistic .value {
+        font-size: 1.8em !important; }
+      .stats .ui.statistic .label {
+        font-size: 1em !important; }
+    .stats .profil-wrapper .ui.secondary.pointing.menu .item {
+      font-size: 13px !important; } }
+@media (max-width: 441px) {
+  .stats .ui.statistic .value {
+    font-size: 1.6em !important; }
+  .stats .ui.statistic .label {
+    font-size: 0.8em !important; }
+
+  .profil-wrapper .ui.secondary.pointing.menu .item {
+    font-size: 13px !important; } }
+@media (max-width: 441px) {
+  .stats .ui.statistic .value {
+    font-size: 1.5em !important; }
+  .stats .ui.statistic .label {
+    font-size: 0.6em !important; }
+
+  .profil-wrapper .profil-info-list {
+    font-size: 1em !important; }
+  .profil-wrapper .edit-profil-link {
+    font-size: 1em !important; }
+  .profil-wrapper .ui.secondary.pointing.menu .item {
+    font-size: 12px !important; } }
+
+/*# sourceMappingURL=Profil.css.map */

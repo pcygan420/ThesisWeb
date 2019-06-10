@@ -1,0 +1,39 @@
+.register-message {
+    margin-top: 50px;
+    padding: 12px 10px 6px 10px;
+    
+    color: #276f86 !important;
+    background-color: #f8ffff;
+    border: 1px solid #a9d5de;
+    border-radius: .28571429rem;
+
+    div {
+
+        .button {
+            color: white;
+            background-color: #276f86;
+            transition: all 0.16s ease-in-out;
+
+            &:hover {
+                color: white;
+                background-color: #0e566c
+            }
+        }
+
+        p {
+            font-size: 0.9em;
+        }
+
+        i {
+            color: #276f86 !important;
+        }
+    }
+
+    div:nth-child(2) {
+        width: 100%;
+        margin: 10px auto;
+
+        text-align: center; 
+        font-size: 18px;
+    }
+}

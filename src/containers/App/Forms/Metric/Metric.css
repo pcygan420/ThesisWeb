@@ -1,0 +1,20 @@
+.genres-dropdown {
+    min-height: 42px;
+}
+
+.genres-dropdown .default.text {
+    line-height: 1.6em !important;
+}
+
+.genres-dropdown .ui.label 
+{
+    color: white !important;
+    background-color: #2185d0 !important;
+    font-size: 1.2em !important;   
+}
+
+.genres-dropdown .ui.label:hover
+{
+    color: white !important;
+    background-color: #1a69a4 !important;
+}

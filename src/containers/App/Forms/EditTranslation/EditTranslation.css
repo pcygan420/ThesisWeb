@@ -1,0 +1,35 @@
+.edit-tran-textarea {
+    width: 50%;
+    display: inline-block;
+    float: left;
+
+    padding: 0;
+    clear: none !important;
+}
+
+.edit-tran-textarea.left {
+    padding-right: 8px;
+}
+
+.edit-tran-textarea.right {
+    padding-left: 8px;
+}
+
+.edit-tran-textarea textarea {
+    height: 420px;       
+}
+
+@media (max-width: 414px) {
+
+    .edit-tran-textarea {
+        width: 100%;
+    }
+
+    .edit-tran-textarea.left,.edit-tran-textarea.right {
+        padding: 0;
+    }
+
+    .translation-form-wrapper {
+        padding: 15px 10px;
+    }
+}

@@ -1,0 +1,12 @@
+.user-card {
+  display: inline-block !important; }
+  .user-card .content .header {
+    font-weight: normal !important; }
+    .user-card .content .header a {
+      color: #00b5ad !important; }
+  .user-card .extra.content {
+    padding: 0.5em 1em !important; }
+    .user-card .extra.content a {
+      color: black !important; }
+
+/*# sourceMappingURL=UserCard.css.map */

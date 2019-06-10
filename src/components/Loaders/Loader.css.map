@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEI,uBAAS;EACL,MAAM,EAAE,+BAA+B;AAG3C,sBAAQ;EACJ,YAAY,EAAE,iBAAiB;EAC/B,YAAY,EAAE,0CAA0C",
+"sources": ["../../../../../../../../Pawe%C5%82/Desktop/MUSICWEB/Project/music_site/src/components/Loaders/Loader.scss"],
+"names": [],
+"file": "Loader.css"
+}

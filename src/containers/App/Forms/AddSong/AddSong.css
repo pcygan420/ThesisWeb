@@ -1,0 +1,28 @@
+.add-song-form-wrapper {
+    max-width: 660px; min-height: 540px;
+    position: relative;
+    margin: 0 auto;
+    padding: 15px 20px;
+    
+    font-family: 'Patua One', cursive;
+}
+
+.add-song-form-textarea textarea {
+    height: 300px !important;
+}
+
+.check-song-message {
+    margin-left: 5px; 
+
+    font-weight: bold;
+}
+
+@media (max-width: 420px) {
+    .add-song-form-wrapper {
+        padding: 15px 10px;
+    }
+
+    .add-song-form-textarea textarea {
+        width: 100% !important;
+    }
+}

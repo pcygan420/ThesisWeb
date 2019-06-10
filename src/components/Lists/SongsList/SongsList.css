@@ -1,0 +1,14 @@
+.song-card-wrapper {
+  width: 33.333%;
+  display: inline-block;
+  padding: 10px; }
+
+@media (max-width: 992px) {
+  .song-card-wrapper {
+    width: 50%; } }
+@media (max-width: 570px) {
+  .song-card-wrapper {
+    width: 100%;
+    padding: 8px 0px; } }
+
+/*# sourceMappingURL=SongsList.css.map */

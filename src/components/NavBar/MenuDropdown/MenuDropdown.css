@@ -1,0 +1,10 @@
+.user-dropdown-menu {
+    width: 150px !important;
+
+    border-radius: 0 !important;
+    box-shadow: none !important;
+}
+
+.user-dropdown-menu .item {
+    font-size: 15px !important;
+}

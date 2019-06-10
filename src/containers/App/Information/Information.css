@@ -1,0 +1,47 @@
+.information {
+  max-width: 1020px;
+  height: auto;
+  margin: auto;
+  padding: 75px 0 150px 0;
+  background-color: white; }
+  .information .ui.text.container {
+    max-width: 100% !important;
+    padding: 0 50px; }
+    .information .ui.text.container h1 {
+      color: #0e566c; }
+    .information .ui.text.container .list li {
+      margin: 10px 0; }
+      .information .ui.text.container .list li span {
+        color: #276f86; }
+    .information .ui.text.container .ui.info.message {
+      margin-top: 32px;
+      padding: 15px 17px; }
+      .information .ui.text.container .ui.info.message i {
+        margin-right: 18px !important; }
+
+@media only screen and (max-width: 991px) {
+  .information .ui.container {
+    width: 90% !important;
+    padding: 0 !important; } }
+@media (max-width: 600px) {
+  .information {
+    padding: 75px 0 75px 0; }
+    .information .ui.text.container {
+      max-width: 100% !important;
+      padding: 0 5px; } }
+@media (max-width: 411px) {
+  .information .ui.text.container h1 {
+    font-size: 22px !important; }
+  .information .list {
+    font-size: 14px !important; }
+  .information .message .content .header {
+    font-size: 18px !important; }
+  .information .message .content p {
+    font-size: 15px !important; }
+  .information .message i {
+    font-size: 24px !important; }
+
+  p {
+    font-size: 14px !important; } }
+
+/*# sourceMappingURL=Information.css.map */

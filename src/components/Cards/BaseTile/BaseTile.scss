@@ -1,0 +1,107 @@
+.base-tile {
+    width: 600px !important; max-height: 170px !important;
+    margin: 20px 0 !important;
+    position: relative;
+
+    border-radius: 0 !important;
+
+    .content {
+        
+        padding-bottom: 0.5em !important;
+
+        .header {
+            font-size: 22px !important;
+
+            a {
+                color: rgba(0,0,0,.85) !important;
+            }
+
+            span {
+                float: right;
+                font-size: 17px;
+                font-weight: normal;
+                color:rgba(0,0,0,.4);    
+
+                span {
+                    float: none;
+                    font-weight: bold;
+                    color: #1678c2;
+                    font-size: 22px;
+                }
+            }
+        }
+
+        .meta {
+            font-size: 17px !important;
+        }
+
+        
+        .description {
+            margin-top: 15px !important;
+            position: relative;
+
+            .list {
+                width: 100%;
+                
+            .item {     
+                display: inline-block;
+                width: 50%;
+                margin-left: 0 !important;
+
+                color: rgba(0,0,0,.4);  
+                
+                span {
+                    color: #ee927b;
+                }
+            }            
+        }
+        }
+    }
+
+    .extra.content {
+        padding: 0.5em 1em !important;
+
+        .avg-rate {
+            width: 150px;
+            position: relative;
+            display: inline-block;
+
+            color: rgba(0,0,0,.4);
+            font-size: 18px;
+
+            i {
+                margin-right: 0 !important;
+                font-size: 16px;
+            }
+
+            i:nth-child(1) {
+                margin-left: 10px;
+            }
+        }
+
+        a {
+            float: right;
+        }
+    }
+}
+
+@media (max-width: 840px) {
+    .base-tile {
+        width: 100%;
+
+    }
+}
+
+@media (max-width: 411px) {
+    .base-tile {
+        margin: 12px 0;
+
+        .content {
+            padding: 0.5em 0.75em !important;
+        }
+    
+        .extra.content {
+            padding: 0.5em 0.75em !important;
+        }
+    }
+}

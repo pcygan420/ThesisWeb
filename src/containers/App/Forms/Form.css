@@ -1,0 +1,51 @@
+.form-wrapper {
+  width: 100%;
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 25px 40px;
+  border-radius: 10px; }
+
+.link-form {
+  max-width: 660px;
+  min-height: 824px;
+  position: relative;
+  margin: auto;
+  padding: 40px 0;
+  background-color: white; }
+
+.form-container {
+  width: 100%;
+  max-width: 600px;
+  position: relative;
+  margin: auto;
+  background-color: #fcfcfc; }
+  .form-container .segment .message {
+    padding: 12px; }
+    .form-container .segment .message .header {
+      height: 40px;
+      line-height: 40px;
+      font-size: 27px;
+      text-align: center; }
+  .form-container .segment .form {
+    padding: 24px 12px; }
+
+/* Form Content */
+.error-message {
+  margin: 0px 0 5px 5px;
+  font-size: 12px;
+  font-style: normal;
+  color: #ce2f2f; }
+
+@media (max-width: 600px) {
+  .form-wrapper {
+    padding: 0; }
+
+  .form-options li {
+    font-size: 16px; }
+  .form-options .form-option-selected {
+    font-size: 18px; } }
+@media (max-width: 415px) {
+  .link-form {
+    margin: 20px auto !important; } }
+
+/*# sourceMappingURL=Form.css.map */

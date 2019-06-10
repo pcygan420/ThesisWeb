@@ -1,0 +1,17 @@
+.expectant-card {
+  width: auto !important;
+  opacity: 0.9;
+  white-space: pre-line;
+  transition: all 0.25s ease-in-out !important; }
+  .expectant-card:hover {
+    opacity: 1; }
+  .expectant-card .content {
+    padding: 0.5em 0.5em !important; }
+    .expectant-card .content .join-icon {
+      float: right !important;
+      color: #eaeaea !important;
+      transition: 0.15s all ease-in-out; }
+      .expectant-card .content .join-icon:hover {
+        color: #2185d0 !important; }
+
+/*# sourceMappingURL=ExpectantCard.css.map */

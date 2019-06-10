@@ -1,0 +1,40 @@
+.search-wrapper {
+  max-width: 1180px;
+  min-height: 1020px;
+  height: auto;
+  margin: 0 auto;
+  padding: 0 10px;
+  font-family: 'Patua One', cursive;
+  background-color: white; }
+  .search-wrapper .column {
+    padding: 0 !important; }
+  .search-wrapper .search-header {
+    margin-top: 50px !important; }
+  .search-wrapper .search-menu a {
+    font-family: 'Patua One', cursive !important;
+    font-size: 18px !important; }
+  .search-wrapper .search-menu .active.item {
+    font-weight: normal !important;
+    opacity: 1; }
+    .search-wrapper .search-menu .active.item:hover {
+      opacity: 1; }
+  .search-wrapper .search-menu .item {
+    opacity: 0.6;
+    transition: all 0.2s ease-in-out; }
+    .search-wrapper .search-menu .item:hover {
+      cursor: pointer;
+      opacity: 0.75; }
+
+@media (max-width: 411px) {
+  .search-wrapper .search-header, .search-wrapper .results-header {
+    font-size: 18px !important; }
+  .search-wrapper .search-menu a {
+    font-size: 15px !important; }
+  .search-wrapper .search-menu .item {
+    opacity: 0.6;
+    transition: all 0.2s ease-in-out; }
+    .search-wrapper .search-menu .item:hover {
+      cursor: pointer;
+      opacity: 0.75; } }
+
+/*# sourceMappingURL=Search.css.map */

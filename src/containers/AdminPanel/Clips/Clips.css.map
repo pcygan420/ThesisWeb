@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,UAAW;EAEP,QAAQ,EAAE,QAAQ;EAElB,sBAAY;IACR,KAAK,EAAE,IAAI;IACX,MAAM,EAAE,iBAAiB;EAG7B,uBAAa;IACT,KAAK,EAAE,IAAI;IACX,MAAM,EAAE,KAAK;IACb,OAAO,EAAE,KAAK;IACd,MAAM,EAAE,IAAI;EAGhB,wBAAc;IACV,MAAM,EAAE,IAAI;IAEZ,UAAU,EAAE,MAAM;;AAI1B,yBAA0B;EAElB,uBAAa;IACT,MAAM,EAAE,KAAK",
+"sources": ["../../../../../../../../../Pawe%C5%82/Desktop/MUSICWEB/Project/music_site/src/components/AdminPanel/Links/Links.scss"],
+"names": [],
+"file": "Links.css"
+}

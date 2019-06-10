@@ -1,0 +1,11 @@
+.pending-card-column {
+    width: 25% !important;
+}
+
+@media (max-width: 1420px) {
+
+    .pending-card-column {
+        width: 100% !important;
+        display: block;
+    }
+}

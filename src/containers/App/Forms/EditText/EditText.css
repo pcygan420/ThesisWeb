@@ -1,0 +1,17 @@
+.edit-text-wrapper {
+    max-width: 660px; min-height: 824px;
+    position: relative;
+    margin: auto;
+
+    padding: 15px 20px;
+}
+
+.edit-text-textarea textarea {
+    height: 500px !important;
+}
+
+@media (max-width: 420px) {
+    .edit-text-wrapper {
+        padding: 15px 10px;
+    }
+}

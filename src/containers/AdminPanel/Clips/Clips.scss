@@ -1,0 +1,17 @@
+.link-form {
+    
+    position: relative;
+
+    .link-input {
+        width: 100%;
+        margin: 0.5rem 0 0.5rem 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .link-form {
+        .link-iframe {
+            height: 175px;
+        }
+    }
+}

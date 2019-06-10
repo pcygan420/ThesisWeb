@@ -1,0 +1,8 @@
+.ui.comments .comment .reply.form {
+    transition: all 0.3s ease-in-out !important;
+    overflow: hidden;
+}
+
+.comment-reply .field textarea {
+    height: 5em !important;
+}

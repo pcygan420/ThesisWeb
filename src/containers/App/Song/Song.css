@@ -1,0 +1,229 @@
+.song-wrapper {
+  max-width: 1020px;
+  min-height: 1000px;
+  position: relative;
+  margin: 0 auto;
+  background-color: white; }
+  .song-wrapper .left-column {
+    margin-top: 10px !important;
+    padding: 0 0.5em 0 0 !important; }
+  .song-wrapper .right-column {
+    margin-top: 10px !important;
+    padding: 0 0 0 0.5em !important; }
+  .song-wrapper .segment {
+    border-radius: 0 !important; }
+  .song-wrapper .header a, .song-wrapper .header span {
+    font-weight: normal !important; }
+  .song-wrapper .my-link {
+    color: #4183c4 !important;
+    font-size: 13px !important; }
+    .song-wrapper .my-link:hover {
+      cursor: pointer;
+      color: #3b76af !important; }
+
+.header-info {
+  width: 50%;
+  display: inline-block; }
+
+.text {
+  opacity: 1;
+  transition: all 0.2s ease-in-out; }
+
+.song-text {
+  width: 100%;
+  height: auto;
+  line-height: 17px;
+  display: inline-block;
+  font-size: 12px;
+  white-space: pre-line; }
+
+.other-songs {
+  width: 100%;
+  height: auto;
+  margin: 20px 0; }
+
+.other-songs-list {
+  counter-reset: li;
+  list-style-type: decimal;
+  font-size: 13px;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5); }
+  .other-songs-list li {
+    display: block;
+    padding: 4px 10px;
+    opacity: 0.9;
+    transition: 0.2s ease-in-out; }
+    .other-songs-list li:hover {
+      cursor: pointer;
+      opacity: 1; }
+    .other-songs-list li a {
+      position: relative;
+      display: block;
+      padding: 0.8rem 0 0.8rem 2.5rem;
+      background-color: #f2f2f2;
+      color: #191919;
+      text-decoration: none;
+      border-radius: .3em;
+      transition: all .3s ease-out; }
+      .other-songs-list li a:before {
+        content: counter(li);
+        counter-increment: li;
+        position: absolute;
+        top: 0em;
+        left: -1.2em;
+        color: white;
+        background: #2185d0;
+        height: 2.9em;
+        width: 2.9em;
+        line-height: 2.9em;
+        text-align: center;
+        font-weight: bold; }
+
+.disabled-link {
+  pointer-events: none;
+  opacity: 0.5; }
+
+.teledisk {
+  width: 100%;
+  height: auto; }
+  .teledisk .clip-div {
+    height: 320px;
+    background-image: url("../../../assets/Images/placeholder.png");
+    background-size: cover; }
+    .teledisk .clip-div iframe {
+      border: 0px; }
+  .teledisk iframe {
+    width: 100%;
+    height: 320px; }
+
+.users-list-wrapper {
+  box-shadow: none !important;
+  padding: 0.5em 1em !important;
+  font-size: 15px !important; }
+  .users-list-wrapper .list {
+    height: 66px; }
+
+.metric-list .item i {
+  font-size: 12px; }
+.metric-list .item .content .header, .metric-list .item .content .description {
+  font-size: 15px; }
+.metric-list .item .content .description {
+  margin-top: 3px; }
+
+.teledisk-edit {
+  width: 100%;
+  border-bottom: 1px solid #eaeaea;
+  text-align: right; }
+  .teledisk-edit a {
+    margin-right: 10px; }
+
+.rate-segment {
+  width: 100%;
+  height: 83px;
+  position: relative;
+  padding: 0 !important;
+  background-color: #212121;
+  box-shadow: none !important; }
+  .rate-segment .statistics {
+    height: 83px;
+    margin: 0 !important;
+    padding: 20px 0; }
+    .rate-segment .statistics .statistic:nth-child(1) {
+      margin-left: 0 !important; }
+    .rate-segment .statistics .statistic {
+      width: 30%;
+      margin: 0 !important; }
+      .rate-segment .statistics .statistic .value {
+        font-size: 12px !important; }
+      .rate-segment .statistics .statistic .label {
+        margin-top: 2px !important; }
+    .rate-segment .statistics .statistic:nth-child(2) {
+      width: 40%; }
+  .rate-segment .rate-user .content .rating:nth-child(1) {
+    margin-right: 24px !important; }
+  .rate-segment .rate-user .content i {
+    font-size: 15px;
+    margin-left: 3px !important; }
+  .rate-segment .rate-user .content .icon.active {
+    color: #156daf !important;
+    text-shadow: 0 -1px 0 #1576bf, -1px 0 0 #1576bf, 0 1px 0 #1576bf, 1px 0 0 #1576bf !important; }
+  .rate-segment .rate-user .content .active.icon.selected {
+    color: #2185d0 !important;
+    text-shadow: 0 -1px 0 #0767af, -1px 0 0 #0767af, 0 1px 0 #0767af, 1px 0 0 #0767af !important; }
+  .rate-segment .rate-user .content .icon.selected {
+    color: #2185d0 !important;
+    text-shadow: 0 -1px 0 #0767af, -1px 0 0 #0767af, 0 1px 0 #0767af, 1px 0 0 #0767af !important; }
+
+.author-image {
+  width: 40%;
+  position: relative;
+  display: inline-block; }
+  .author-image:before {
+    content: "";
+    display: block;
+    padding-top: 100%; }
+  .author-image img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    border-radius: 15px; }
+
+.vote-up-button, .vote-down-button {
+  color: grey !important;
+  transition: 0.15s ease-in-out; }
+
+.vote-up-button:hover {
+  cursor: pointer;
+  color: #2185d0 !important; }
+
+.vote-down-button:hover {
+  cursor: pointer;
+  color: #db2828 !important; }
+
+textarea:hover {
+  cursor: pointer; }
+
+.song-edit-history-wrapper {
+  overflow-y: auto;
+  white-space: nowrap;
+  transition: 0.45s; }
+
+@media (max-width: 1200px) {
+  .song-wrapper {
+    max-width: 980px; } }
+@media (max-width: 991px) {
+  .song-wrapper {
+    max-width: 768px; }
+
+  .rate-segment .statistics .statistic {
+    width: 33.3333%; }
+    .rate-segment .statistics .statistic .value, .rate-segment .statistics .statistic .label {
+      font-size: 10px !important; }
+  .rate-segment .statistics .statistic:nth-child(2) {
+    width: 33.3333%; }
+  .rate-segment .rate-user .content .rating:nth-child(1) {
+    margin-right: 10px !important; } }
+@media (max-width: 660px) {
+  .song-wrapper .left-column {
+    padding: 0 !important; }
+  .song-wrapper .right-column {
+    padding: 0 !important; } }
+@media (max-width: 414px) {
+  .song-wrapper .title-header {
+    font-size: 20px !important; }
+  .song-wrapper .my-link {
+    font-size: 11px !important; }
+    .song-wrapper .my-link i {
+      font-size: 1.2em !important; }
+    .song-wrapper .my-link .content .sub.header {
+      font-size: 11px !important; }
+
+  .users-list-wrapper {
+    font-size: 14px !important; }
+
+  .teledisk .clip-div {
+    height: 225px; }
+  .teledisk iframe {
+    height: 225px; } }
+
+/*# sourceMappingURL=Song.css.map */

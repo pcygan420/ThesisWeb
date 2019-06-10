@@ -1,0 +1,145 @@
+.add-message {
+  display: table;
+  position: relative;
+  margin: 24px auto 0;
+  width: 100%;
+
+  color: #fff;
+  background-color: #2dafcc;
+  transition: all 0.2s ease;
+  
+  &.is-hidden {
+    opacity: 0;
+    height: 0;
+    font-size: 0;
+    padding: 0;
+    margin: 0 auto;
+    display: block;
+  }
+}
+
+.message-icon {
+  display: table-cell;
+  vertical-align: middle;
+  width: 60px;
+  padding: 30px;
+  text-align: center;
+  background-color: rgba(black, 0.25);
+  
+  >i {
+    width: 20px;
+    font-size: 20px;
+  }
+}
+  
+.message-body {
+  display: table-cell;
+
+  vertical-align: middle;
+  padding: 20px 10px;
+  
+  > p {
+    line-height: 1.2;
+    margin-top: 6px;
+  }
+}
+
+.message-button {
+  position: relative;
+  margin: 5px 5px 0px;
+  background-color: rgba(black, 0.25);
+  border:none;
+  padding: 10px;
+  font-size: 16px;
+  font-family: 'Source Sans Pro';
+  color: #fff;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.15s ease-in-out;
+  
+  &:hover {
+    background: rgba(black, 0.3);
+  }
+
+  &:active {
+    background: rgba(black, 0.3);
+    box-shadow: 0 0px rgba(black, 0.4);
+    top: 3px;
+  }
+}
+
+#js-helpMe {
+  margin: 5px 5px 5px 0;
+}
+
+.message-close {
+  position: absolute;
+  background-color: rgba(black, 0.3);
+  color: #fff;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  right: 5px;
+  top: 5px;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+  
+  &:hover {
+    background-color: rgba(black, 0.5);
+  }
+}
+
+.u-italic {
+  font-style: italic;
+}
+
+@media (max-width: 411px) {
+  .message-icon {
+    width: 36px;
+    padding: 20px;
+    
+    >i {
+      width: 16px;
+      font-size: 16px;
+    }
+  }
+  
+  .message-button {
+    padding: 8px;
+    font-size: 15px;
+  }
+  
+  .message-close {
+    font-size: 16px;
+  }
+
+}
+
+@media (max-width: 320px) {
+  
+  .message-body {
+    padding-top: 30px !important;
+  }
+  
+  .message-icon {
+    width: 30px;
+    padding: 18px;
+    
+    >i {
+      width: 14px;
+      font-size: 14px;
+    }
+  }
+  
+  .message-button {
+    padding: 8px;
+    font-size: 15px;
+
+    margin-left: 0;
+  }
+  
+  .message-close {
+    font-size: 15px;
+  }
+  
+}

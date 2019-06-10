@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,oBAAqB;EACjB,KAAK,EAAE,cAAc;;AAGzB,0BAA2B;EAEvB,oBAAqB;IACjB,KAAK,EAAE,eAAe;IACtB,OAAO,EAAE,KAAK",
+"sources": ["../../../../../../../../../Pawe%C5%82/Desktop/MUSICWEB/Project/music_site/src/containers/AdminPanel/Main/Main.scss"],
+"names": [],
+"file": "Main.css"
+}

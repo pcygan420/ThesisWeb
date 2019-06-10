@@ -1,0 +1,21 @@
+.user-card {
+    display: inline-block !important;
+
+    .content {
+        .header {
+            font-weight: normal !important;
+
+            a {
+                color: #00b5ad !important;
+            }
+        }
+    }
+
+    .extra.content {
+        padding: 0.5em 1em !important;
+        
+        a {
+            color: black !important;
+        }
+    }
+}

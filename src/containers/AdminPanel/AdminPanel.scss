@@ -1,0 +1,158 @@
+#menu-toggle {
+
+    i {
+        font-size: 15px;      
+    }
+}
+
+.admin-panel .active.item {
+    color: white !important;
+    background-color: #0a416d !important;
+    transition: 0.15s ease-in-out;
+}
+
+#sidebar {
+    width: 250px;
+    position: fixed;
+    top: 41px;
+    bottom: 0;
+
+    overflow: hidden;
+    transition: 0.3s;
+    z-index: 999;
+
+    background-color: #155a91;
+
+    #menu {      
+            width: 250px;
+            margin-top: 2rem;
+            margin-right: 0 !important;
+        .item {
+
+            padding-left: 0.5rem;
+            padding-right: 0.5rem;
+            &:hover {
+                cursor: pointer !important;
+                background-color: rgba(0,0,0,.025);
+            }  
+
+            i {
+                float: left;
+                margin-right: 10px;
+            }
+        }  
+    }
+}
+
+.admin-panel.ui.menu .item {
+    color: white !important;
+    font-size: 16px;
+}
+  
+
+#content {
+    width: auto; height: 100%;
+    margin-left: 250px;
+    padding-top: 2rem;
+
+    flex-grow: 100;
+    overflow-y: auto;
+
+    td {
+        padding: 0.6em 0.6em !important;
+    }
+
+    .visible.menu.transition {
+        max-height: 120px !important;
+        overflow-y: auto;
+    }
+}
+
+.refresh-wrapper {
+    display: inline-block;
+
+    float: right;
+    font-size: 0.7em !important;
+    color: #333;
+    transition: all 0.25s ease-in-out;
+
+    &:hover {
+        cursor: pointer;
+        color: black;
+    }    
+
+    .refresh {
+        margin-right: 0 !important;
+    }
+}
+
+.option-link {
+    color: #2185d0 !important;
+    transition: all 0.25s ease-in-out !important;
+
+    &:hover {
+        cursor: pointer;
+        color: #155a91 !important;
+    }
+}
+
+.no-results-message {
+    color: #bababa !important;
+
+    font-size: 15px;
+}
+
+@media (max-width: 1024px) {
+    .filters-wrapper {
+        height: 276px;
+    }
+    
+    .filter-input {
+        width: 100%;
+
+        margin-left: 0px !important;
+        padding: 5px 0 !important;
+    }
+    
+    .filter-search-button {
+        width: 100%;
+        margin-top: 5px !important;
+        margin-bottom: 5px !important;
+    
+        display: inline-block;
+        float: left;
+    }
+}
+
+@media (max-width: 677px) {
+    .ui.labeled.input:not([class*="corner labeled"]) .label:first-child+input {
+      width: 50px;
+    }   
+}
+
+@media (max-width: 600px) {
+
+    .admin-panel.ui.menu .item {
+        font-size: 13px;
+    }
+
+    #sidebar {
+        width: 150px;
+
+        #menu {
+            width: 150px;
+            font-size: 12px;
+
+            .item {
+                padding-left: 0;
+                padding-right: 0;
+            }
+            
+        }
+    }
+
+    #content {
+        margin-left: 0px;
+        padding: 0;
+    }
+}

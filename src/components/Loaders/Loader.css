@@ -1,0 +1,7 @@
+.standard-loader:before {
+  border: 0.5rem solid #dddddd !important; }
+.standard-loader:after {
+  border-width: 0.5rem !important;
+  border-color: #508EC3 transparent transparent !important; }
+
+/*# sourceMappingURL=Loader.css.map */

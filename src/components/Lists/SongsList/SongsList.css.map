@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,kBAAmB;EACf,KAAK,EAAE,OAAO;EACd,OAAO,EAAE,YAAY;EAErB,OAAO,EAAE,IAAI;;AAGjB,yBAA0B;EACtB,kBAAmB;IACf,KAAK,EAAE,GAAG;AAIlB,yBAA0B;EACtB,kBAAmB;IACf,KAAK,EAAE,IAAI;IAEX,OAAO,EAAE,QAAQ",
+"sources": ["../../../../../../../../../Pawe%C5%82/Desktop/MUSICWEB/Project/music_site/src/components/Lists/SongsList/SongsList.scss"],
+"names": [],
+"file": "SongsList.css"
+}

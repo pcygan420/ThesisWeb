@@ -1,0 +1,64 @@
+.base-tile {
+  width: 600px !important;
+  max-height: 170px !important;
+  margin: 20px 0 !important;
+  position: relative;
+  border-radius: 0 !important; }
+  .base-tile .content {
+    padding-bottom: 0.5em !important; }
+    .base-tile .content .header {
+      font-size: 22px !important; }
+      .base-tile .content .header a {
+        color: rgba(0, 0, 0, 0.85) !important; }
+      .base-tile .content .header span {
+        float: right;
+        font-size: 17px;
+        font-weight: normal;
+        color: rgba(0, 0, 0, 0.4); }
+        .base-tile .content .header span span {
+          float: none;
+          font-weight: bold;
+          color: #1678c2;
+          font-size: 22px; }
+    .base-tile .content .meta {
+      font-size: 17px !important; }
+    .base-tile .content .description {
+      margin-top: 15px !important;
+      position: relative; }
+      .base-tile .content .description .list {
+        width: 100%; }
+        .base-tile .content .description .list .item {
+          display: inline-block;
+          width: 50%;
+          margin-left: 0 !important;
+          color: rgba(0, 0, 0, 0.4); }
+          .base-tile .content .description .list .item span {
+            color: #ee927b; }
+  .base-tile .extra.content {
+    padding: 0.5em 1em !important; }
+    .base-tile .extra.content .avg-rate {
+      width: 150px;
+      position: relative;
+      display: inline-block;
+      color: rgba(0, 0, 0, 0.4);
+      font-size: 18px; }
+      .base-tile .extra.content .avg-rate i {
+        margin-right: 0 !important;
+        font-size: 16px; }
+      .base-tile .extra.content .avg-rate i:nth-child(1) {
+        margin-left: 10px; }
+    .base-tile .extra.content a {
+      float: right; }
+
+@media (max-width: 840px) {
+  .base-tile {
+    width: 100%; } }
+@media (max-width: 411px) {
+  .base-tile {
+    margin: 12px 0; }
+    .base-tile .content {
+      padding: 0.5em 0.75em !important; }
+    .base-tile .extra.content {
+      padding: 0.5em 0.75em !important; } }
+
+/*# sourceMappingURL=BaseTile.css.map */

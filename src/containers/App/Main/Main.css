@@ -1,0 +1,104 @@
+/* SITE WRAPPER */
+.Wrapper {
+  max-width: 1200px;
+  height: auto;
+  margin: auto;
+  position: relative;
+  padding: 40px 0;
+  background-color: white; }
+
+.songs-holder {
+  min-height: 870px; }
+
+.expectants-holder {
+  min-height: 300px; }
+
+.popular-holder {
+  min-height: 550px; }
+
+@media (max-width: 720px) {
+  .Wrapper {
+    width: auto; } }
+@media only screen and (max-device-width: 600px) {
+  .Wrapper {
+    width: 100%; } }
+/* Container title and list wrappers*/
+.title-wrapper {
+  width: 50%;
+  height: 80px;
+  line-height: 80px;
+  display: inline-block;
+  /*border-top: 5px solid #191919;*/
+  border-bottom: 5px solid #191919;
+  float: left;
+  text-align: center;
+  color: #161616;
+  font-family: 'Lora', sans-serif;
+  font-size: 36px;
+  font-weight: bold; }
+
+.navigation-wrapper {
+  width: 50%;
+  height: 80px;
+  line-height: 80px;
+  display: inline-block;
+  position: relative;
+  border-bottom: 5px solid #191919;
+  float: left;
+  color: #ccc;
+  font-size: 22px;
+  font-family: 'Lora', sans-serif; }
+  .navigation-wrapper ul {
+    width: 80%;
+    list-style: none;
+    padding: 0;
+    margin: auto; }
+  .navigation-wrapper li {
+    height: 25px;
+    line-height: 25px;
+    display: inline-block;
+    margin-right: 10px;
+    border-right: 1px solid #aaa;
+    padding: 0 10px 0 0; }
+    .navigation-wrapper li:hover {
+      color: #666;
+      cursor: pointer;
+      transition: 0.5s ease; }
+    .navigation-wrapper li:last-child {
+      border-right: none;
+      margin-right: 0;
+      padding: 0; }
+
+.selected {
+  font-weight: bold;
+  color: #333; }
+
+@media (max-width: 1750px) {
+  .title-wrapper {
+    font-size: 36px; }
+
+  .navigation-wrapper li {
+    font-size: 22px; } }
+@media (max-width: 1250px) {
+  .title-wrapper {
+    font-size: 26px; }
+
+  .navigation-wrapper li {
+    font-size: 16px; } }
+@media (max-width: 900px) {
+  .title-wrapper {
+    font-size: 20px; }
+
+  .navigation-wrapper li {
+    font-size: 13px; } }
+@media (max-width: 600px) {
+  .title-wrapper {
+    width: 40%;
+    font-size: 14px; }
+
+  .navigation-wrapper {
+    width: 60%; }
+    .navigation-wrapper li {
+      font-size: 10px; } }
+
+/*# sourceMappingURL=Main.css.map */

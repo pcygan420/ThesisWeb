@@ -1,0 +1,5 @@
+.small-loader:before {
+    border: 0.3rem solid #dddddd !important; }
+  .small-loader:after {
+    border-width: 0.3rem !important;
+    border-color: #508EC3 transparent transparent !important; }

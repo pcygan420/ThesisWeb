@@ -1,0 +1,26 @@
+.expectant-card {
+    width: auto !important;
+
+    opacity: 0.9;
+    white-space: pre-line;
+    transition: all 0.25s ease-in-out !important;
+
+    &:hover {
+        opacity: 1;
+    }
+
+    .content {
+
+        padding: 0.5em 0.5em !important;
+
+        .join-icon {
+            float: right !important;
+            color: #eaeaea !important;
+            transition: 0.15s all ease-in-out;
+
+            &:hover {
+                color: #2185d0 !important;
+            }
+        }
+    }
+}
